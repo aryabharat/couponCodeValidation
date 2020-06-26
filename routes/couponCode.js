@@ -11,7 +11,7 @@ router.post('/validate', (req, res) => {
         if (!data)
             return res.status(404).send("Invalid Coupon");
         if (moment(data.expDate).isBefore(Date.now()))
-            return res.status(404).send("coupon expired")
+            return res.status(404).send("Coupon expired")
         if (req.body.amount < data.minAmount)
             return res.status(404).send("Not aplicable on this amount");
         try {

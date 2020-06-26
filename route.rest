@@ -1,23 +1,22 @@
-POST http://localhost:3000/couponCode/validate
+POST https://rocky-spire-54542.herokuapp.com/couponCode/validate
 Content-Type: application/json
 
 {
-    "coupon":"BJLABIY111",
-    "amount":1000
+    "coupon":"MJAMBGZ10",
+    "amount":999
 }
 
 ###
 
-POST http://localhost:3000/couponCode
+POST https://rocky-spire-54542.herokuapp.com/couponCode
 Content-Type: application/json
 
 {
-    "coupon": "BJLABIY111",
-    "type": "PERCENTAGE",
-    "minAmount": 1000,
-    "amountOff": 250,
-    "percentageOff": 25,
-    "percentageMaxAmount":500
+    "coupon": "MJAMBGZ10",
+    "type": "FLAT",
+    "expDate":"2020-07-10",
+    "minAmount": 700,
+    "amountOff": 50
 }
 
 ###
