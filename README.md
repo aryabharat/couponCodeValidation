@@ -3,22 +3,22 @@
 ## Stack Used
 - Nodejs
 - Express
-- Mongo
+- MongoDB
 
 ## How to Install
 
-This code uses MongoDB as database, so to connect your DB check the `.env_sample` file and update the **MONGO_URI** acordingly.
+This code uses MongoDB as the database, so to connect your DB check the `.env_sample` file and update the **MONGO_URI** accordingly.
 
-After the DB configuration follow these steps:
+After the DB configuration follows these steps:
 
 - `git clone`
 
 Inside the folder:
 
-- `npm insatll`
+- `npm install`
 - `node server.js` 
 
-## How Use
+## How to Use
 
 - Make a post request at 
 
@@ -35,7 +35,7 @@ Content-Type: application/json
 **coupon** is the coupon code.
 **amount** is the amount of cart on which the coupon is used.
 
-If the coupon is valid then you will get response as the discount amount on the amount:
+If the coupon is valid then you will get a response as the discount amount on the amount:
 ```
 {
   "discount": 239.88
@@ -46,8 +46,8 @@ If the coupon is valid then you will get response as the discount amount on the 
 | Errors      | Description |
 | ----------- | ----------- |
 | Invalid Coupon      | coupon code is wrong / not registered        |
-| coupon expired   | The valid date of coupon is over        |
-| Not aplicable on this amount   | The cart amount is less for the coupon to be applied        |
+| coupon expired   | The valid date of the coupon is over        |
+| Not applicable on this amount   | The cart amount is less for the coupon to be applied        |
 
 
 ## Live Demo
