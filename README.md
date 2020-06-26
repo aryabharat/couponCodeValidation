@@ -11,7 +11,7 @@ This code uses MongoDB as the database, so to connect your Database check the `.
 
 After the DB configuration follows these steps:
 
-- `git clone`
+- `git clone https://github.com/aryabharat/couponCodeValidation.git`
 
 Inside the folder:
 
