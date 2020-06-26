@@ -33,6 +33,7 @@ Content-Type: application/json
 }
 ```
 **coupon** is the coupon code.
+
 **amount** is the amount of cart on which the coupon is used.
 
 If the coupon is valid then you will get a response as the discount amount on the amount:
