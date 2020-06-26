@@ -1,0 +1,23 @@
+POST http://localhost:3000/couponCode/validate
+Content-Type: application/json
+
+{
+    "coupon":"BJLABIY111",
+    "amount":1000
+}
+
+###
+
+POST http://localhost:3000/couponCode
+Content-Type: application/json
+
+{
+    "coupon": "BJLABIY111",
+    "type": "PERCENTAGE",
+    "minAmount": 1000,
+    "amountOff": 250,
+    "percentageOff": 25,
+    "percentageMaxAmount":500
+}
+
+###
