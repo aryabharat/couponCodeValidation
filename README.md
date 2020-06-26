@@ -7,7 +7,7 @@
 
 ## How to Install
 
-This code uses MongoDB as the database, so to connect your DB check the `.env_sample` file and update the **MONGO_URI** accordingly.
+This code uses MongoDB as the database, so to connect your Database check the `.env_sample` file and update the **MONGO_URI** accordingly.
 
 After the DB configuration follows these steps:
 
